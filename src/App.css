@@ -1,0 +1,126 @@
+/* App container */
+.App {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+/* Header styles */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Student form styles */
+.StudentForm {
+  margin-bottom: 20px;
+}
+
+.StudentForm label {
+  margin-right: 10px;
+}
+
+.StudentForm input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.StudentForm button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Student list styles */
+.StudentList {
+  margin-bottom: 20px;
+}
+
+/* Attendance table styles */
+.AttendanceTable {
+  margin-top: 20px;
+}
+
+.AttendanceTable table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.AttendanceTable th,
+.AttendanceTable td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Button container styles */
+.ButtonContainer {
+  margin-bottom: 20px;
+}
+
+.UpdateButton,
+.ViewButton {
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.UpdateButton:hover,
+.ViewButton:hover {
+  background-color: #218838;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .StudentForm input {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .ButtonContainer {
+    flex-direction: column;
+  }
+
+  .ButtonContainer button {
+    margin-bottom: 10px;
+  }
+}
+.LogoutButton {
+  padding: 8px 16px;
+  background-color: #dc3545;
+  color: hsl(127, 91%, 47%);
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s; /* Adding transition for smooth effect */
+}
+
+.LogoutButton:hover {
+  opacity: 0.8; /* Adjust the opacity as desired */
+}
+
+.UpdateButton,
+.ViewButton,
+.DownloadButton,
+.AddButton {
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s; /* Adding transition for smooth effect */
+}
+
+.UpdateButton:hover,
+.ViewButton:hover,
+.DownloadButton:hover,
+.AddButton:hover {
+  opacity: 0.8; /* Adjust the opacity as desired */
+}
+
+
